@@ -1,4 +1,6 @@
-$(document).ready(() => {
+
+
+
   console.log("Estamos listos ya sabesssss!!!");
 
   // Selector de ID
