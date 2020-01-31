@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/05-ajax.js"></script>
+    <style>
+        #datos {
+            width: 250px;
+            height: 250px;
+            border: 2px solid green;
+            overflow: scroll;
+            /* background: #ccc;
+            text-align: center;
+            line-height: 50px;
+            color: black;
+            font-size: 19px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 15px; */
+            /* transition: 300ms all;   */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>AJAX</h1>
+    <div id="datos"></div>
+    <br>
+    <form action="https://reqres.in/api/users" method="POST" id="formulario">
+        Nombre: <input type="text" name="name">
+        Web: <input type="text" name="web">
+        <input type="submit" value="Registrar">
+    </form>
+</body>
+
+</html>
